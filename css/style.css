@@ -1,0 +1,29 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* main */
+.container>.form> input{
+    flex-grow: 1;
+}
+
+/* sbarriamo le cose fatte */
+.text{
+    text-decoration: line-through;
+}
+
+.container h1{
+    color: aqua;
+}
+
+.container i{
+    cursor: pointer;
+}
+
+.row{
+    background-color: whitesmoke;
+    padding: 1.5625rem;
+}
